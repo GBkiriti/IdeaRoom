@@ -1,0 +1,24 @@
+{
+    "ideas": [
+        {
+            "name": "some name",
+            "branch": "CSE",
+            "idea": "Some idea"
+        },
+        {
+            "name": "Nithin",
+            "branch": "CSE",
+            "idea": "Meenakshi hub"
+        },
+        {
+            "name": "Satwik basavaraju",
+            "branch": "CSE",
+            "idea": "eating loads"
+        },
+        {
+            "name": "Satwik basavaraju",
+            "branch": "CSE",
+            "idea": "eating loads"
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+extends bootstrap-base
+
+block franken-body
+  h1 IDEAROOM
+  form(action='/' method="post")
+    .form-group
+      label NAME
+      input.form-control(name='stdname', type='text', maxlength='50')
+      br
+    .form-group
+      label BRANCH
+      select.form-control(name='branch')
+        option(value='ECE') ECE
+        option(value='CSE') CSE
+      br
+    .form-group
+      label IDEA
+      input.form-control(name='idea', type='text', maxlength='500')
+      br
+    button.btn.btn-primary(type='submit') Submit
