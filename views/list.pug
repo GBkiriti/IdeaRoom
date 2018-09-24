@@ -1,0 +1,14 @@
+extends bootstrap-base
+
+block franken-body
+    table
+        thead
+            th Name
+            th Branch
+            th Idea
+        tbody
+            each idea in sheet
+                tr
+                    td=idea.name
+                    td=idea.branch
+                    td=idea.idea

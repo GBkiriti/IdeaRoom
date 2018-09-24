@@ -28,5 +28,11 @@ router.post('/',function(req,res){
   fs.writeFileSync("ideas.json", JSON.stringify(pusher));
   // Respond to the user
   res.send("submitted! 69")
-})
+});
+
+router.get('/list', function(req, res) {
+  ideas = JSON.parse(fs.readFileSync('ideas.json')).ideas;
+  console.log(ideas);
+  res.render('list', { sheet: ideas });
+});
 module.exports = router;
