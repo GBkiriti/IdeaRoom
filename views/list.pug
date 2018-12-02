@@ -5,10 +5,12 @@ block franken-body
         thead
             th Name
             th Branch
-            th Idea
+            th INDIVIDUAL/FAMILY
+            th TYPE OF MEET
         tbody
             each idea in sheet
                 tr
-                    td=idea.name
+                    td=idea.stdname
                     td=idea.branch
-                    td=idea.idea
+                    td=idea.arrivalstat
+                    td=idea.meetingtype
