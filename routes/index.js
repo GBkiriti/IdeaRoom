@@ -15,7 +15,8 @@ router.post('/',function(req,res){
   existingIdeas.push({
     name: text.stdname,
     branch:text.branch,
-    idea:text.idea,
+    arrivalstat:text.arrivalstat,
+    meetingtype:text.meetingtype,
   });
   console.log(existingIdeas);
 
@@ -27,7 +28,7 @@ router.post('/',function(req,res){
   // Write the modified array back to the same file
   fs.writeFileSync("ideas.json", JSON.stringify(pusher));
   // Respond to the user
-  res.send("submitted! 69")
+  res.send("submitted! ")
 });
 
 router.get('/list', function(req, res) {

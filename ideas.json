@@ -3,7 +3,8 @@
         {
             "name": "some name",
             "branch": "CSE",
-            "idea": "Some idea"
+            "arrivalstat": "WITH FAMILY",
+            "meetingtype":"DAY OUT AT RESORT"
         },{}
     ]
 }
