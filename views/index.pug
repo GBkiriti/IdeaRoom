@@ -13,6 +13,8 @@ block franken-body
         option(value='ECE') ECE
         option(value='CSE') CSE
         option(value='EEE') EEE
+        option(value='CIVIL') CIVIL
+        option(value='MECH') MECHANICAL
       br
     .form-group
       label INDIVIDUAL/FAMILY
@@ -21,8 +23,8 @@ block franken-body
         option(value='withoutfam') WITHOUT FAMILY
       br
     .form-group
-    label TYPE OF MEET
-    select.form-control(name='meetingtype')
+      label TYPE OF MEET
+      select.form-control(name='meetingtype')
         option(value='dayout') A DAY OUT AT RESORT
         option(value='dinner') DINNER AT RESTAURANT
         option(value='both') DINNER AND DAYOUT AT RESORT

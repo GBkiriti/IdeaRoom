@@ -4,7 +4,7 @@ var fs=require('fs');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+  res.render('index', { title: 'alumni' });
 });
 router.post('/',function(req,res){
   // Read form data to an object
