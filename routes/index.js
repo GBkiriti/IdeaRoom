@@ -13,7 +13,7 @@ router.post('/',function(req,res){
   var existingIdeas = JSON.parse(fs.readFileSync("ideas.json")).ideas;
   // Add our new idea object to the end of the array
   existingIdeas.push({
-    name: text.stdname,
+    name: text.name,
     branch:text.branch,
     arrivalstat:text.arrivalstat,
     meetingtype:text.meetingtype,
