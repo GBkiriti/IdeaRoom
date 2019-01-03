@@ -1,0 +1,12 @@
+extends bootstrap-base
+
+block franken-body
+    h1 Adiona
+    h2 Care, Gachibowli
+
+    h3 Emergencies
+    
+    for emergency in emergencies
+        h4=emergency.vehicleNumber
+        p=emergency.location.lat
+        p=emergency.location.lng
